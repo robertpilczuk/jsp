@@ -12,6 +12,8 @@
 </head>
 <body>
 <%--<jsp:forward page="redirected.jsp"></jsp:forward>--%>
-<jsp:forward page="redirected.jsp"/>
+<jsp:forward page="redirected.jsp">
+    <jsp:param name="myParam" value="my parameter"/>
+</jsp:forward>
 </body>
 </html>
