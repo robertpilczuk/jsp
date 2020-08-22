@@ -16,6 +16,8 @@
     Licznik odwiedzin
     <%= ++ visitCount
     %>
+    <%-- Komentarz JSP --%>
+    <!-- Komentarz HTML -->
 </p>
 </body>
 </html>
